@@ -4,6 +4,7 @@ SiGploit aims to cover all used protocols used in the operator's interconnects S
 Recommendations for each vulnerability will be provided to guide the tester and the operator the steps that should be done to enhance their security posture
 
 SiGploit is developed on several phases
+
   Phase 1: SS7
   -------------
   SiGploit will intially start with SS7 vulnerabilites providing the messages used to test the below attacking scenarios
