@@ -1,5 +1,5 @@
 1) Make sure you have the requirements set, check installation_requirements
-2) git clone https://github.com/SigPloiter/SigPloit.git
+2) clone SigPloit in the home directory: git clone https://github.com/SigPloiter/SigPloit.git
 3) cd SigPloit/SS7/
 4) chmod +x installer.sh
 5) ./installer.sh
