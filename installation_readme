@@ -4,4 +4,4 @@
 4) chmod +x installer.sh
 5) ./installer.sh
 6) cd bin
-7) ./SiGploit to start Sigploiting
+7) ./SiGploit.py to start Sigploiting
