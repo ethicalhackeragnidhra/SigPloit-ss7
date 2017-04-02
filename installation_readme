@@ -3,3 +3,5 @@
 3) cd SigPloit/SS7/
 4) chmod +x installer.sh
 5) ./installer.sh
+6) cd bin
+7) ./SiGploit to start Sigploiting
