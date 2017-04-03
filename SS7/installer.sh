@@ -49,9 +49,9 @@ rm -f $FILE
 
 
 #Setting CLASSPATH Variable
-export SIGPLOIT=$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*
-echo 'export SIGPLOIT=$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*' >> ~/.bashrc
-echo 'export SIGPLOIT=$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*' >> ~/.bash_profile
+export CLASSPATH=$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*
+echo 'export CLASSPATH=$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*' >> ~/.bashrc
+echo 'export CLASSPATH=$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*' >> ~/.bash_profile
 
 source ~/.bashrc
 source ~/.bash_profile
@@ -59,7 +59,7 @@ source ~/.bash_profile
 
 
 
-if [ "$SIGPLOIT" == "$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*" ]
+if [ "$CLASSPATH" == "$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*" ]
 then
 	echo -e '\n\033[32m[+]\033[0mSiGploit is Ready for use..run SiGploit.py'
 	exit 0
