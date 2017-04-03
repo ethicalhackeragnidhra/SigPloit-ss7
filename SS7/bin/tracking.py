@@ -9,18 +9,13 @@ from subprocess import *
 
 
 home_dir = os.path.expanduser('~')
-sri_path = os.path.join(home_dir,'TelcoSploit/out/artifacts/Tracking/sri')
-srism_path = os.path.join(home_dir,'TelcoSploit/out/artifacts/Tracking/srism')
-psi_path = os.path.join(home_dir,'TelcoSploit/out/artifacts/Tracking/psi')
-ati_path = os.path.join(home_dir,'TelcoSploit/out/artifacts/Tracking/ati')
 
 
-"""
 sri_path = os.path.join(home_dir,'/SiGploit/SS7/Tracking/sri')
 srism_path = os.path.join(home_dir,'/SiGploit/SS7/Tracking/srism')
 psi_path = os.path.join(home_dir,'/SiGploit/SS7/Tracking/psi')
 ati_path = os.path.join(home_dir,'/SiGploit/SS7/Tracking/ati')
-"""
+
 def sri():
 	
 	jar_file = 'SendRoutingInfo.jar'
