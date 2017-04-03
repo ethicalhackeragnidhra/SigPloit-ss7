@@ -27,7 +27,7 @@ def sri():
 		SiGploit.LocationTracking()	
 	else:
 		try:
-			sendRoutingInfo = check_call(['java','-cp','$SIGPLOIT','-jar', os.path.join(sri_path,jar_file)])
+			sendRoutingInfo = check_call(['java','-jar', os.path.join(sri_path,jar_file)])
 			if sendRoutingInfo == 0:
 				lt = raw_input('\nWould you like to go back to LocationTracking Menu? (y/n): ')
 				if lt == 'y' or lt == 'yes':
@@ -60,7 +60,7 @@ def psi():
 		SiGploit.LocationTracking()
 	else:
 		try:
-			psi = check_call(['java','-cp','$SIGPLOIT','-jar', os.path.join(psi_path,jar_file)])
+			psi = check_call(['java','-jar', os.path.join(psi_path,jar_file)])
 			if psi == 0:
 				lt = raw_input('\nWould you like to go back to LocationTracking Menu? (y/n): ')
 				if lt == 'y' or lt == 'yes':
@@ -91,7 +91,7 @@ def srism():
 		SiGploit.LocationTracking()
 	else:
 		try:
-			srism = check_call(['java','-cp','$SIGPLOIT','-jar', os.path.join(srism_path,jar_file)])
+			srism = check_call(['java','-jar', os.path.join(srism_path,jar_file)])
 			if srism == 0:
 				lt = raw_input('\nWould you like to go back to LocationTracking Menu? (y/n): ')
 				if lt == 'y' or lt == 'yes':
@@ -122,7 +122,7 @@ def ati():
 		SiGploit.LocationTracking()
 	else:
 		try:
-			ati = check_call(['java','-cp','$SIGPLOIT','-jar', os.path.join(ati_path,jar_file)])
+			ati = check_call(['java','-jar', os.path.join(ati_path,jar_file)])
 			if ati == 0:
 				lt = raw_input('\nWould you like to go back to LocationTracking Menu? (y/n): ')
 				if lt == 'y' or lt == 'yes':
