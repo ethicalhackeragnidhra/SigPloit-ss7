@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<remoteSsns>
+	<id value="1"/>
+	<value remoteSpc="2" remoteSsn="6" remoteSsnFlag="0" markProhibitedWhenSpcResuming="false"/>
+</remoteSsns>
+<remoteSpcs>
+	<id value="1"/>
+	<value remoteSpc="2" remoteSpcFlag="0" mask="0"/>
+</remoteSpcs>
+<concernedSpcs/>
