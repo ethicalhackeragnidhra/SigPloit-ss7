@@ -11,10 +11,10 @@ from subprocess import *
 home_dir = os.path.expanduser('~')
 
 
-sri_path = os.path.join(home_dir,'/SigPloit/SS7/Tracking/sri')
-srism_path = os.path.join(home_dir,'/SigPloit/SS7/Tracking/srism')
-psi_path = os.path.join(home_dir,'/SigPloit/SS7/Tracking/psi')
-ati_path = os.path.join(home_dir,'/SigPloit/SS7/Tracking/ati')
+sri_path = os.path.join(home_dir,'SigPloit/SS7/Tracking/sri')
+srism_path = os.path.join(home_dir,'SigPloit/SS7/Tracking/srism')
+psi_path = os.path.join(home_dir,'SigPloit/SS7/Tracking/psi')
+ati_path = os.path.join(home_dir,'SigPloit/SS7/Tracking/ati')
 
 def sri():
 	
