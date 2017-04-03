@@ -48,37 +48,26 @@ unzip $FILE
 rm -f $FILE
 
 
-#Setting CLASSPATH Variable
-export CLASSPATH=$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*
-echo 'export CLASSPATH=$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*' >> ~/.bashrc
-echo 'export CLASSPATH=$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*' >> ~/.bash_profile
+#Setting LIB Direcotry
+mkdir -v Tracking/ati/lib
+mkdir -v Tracking/psi/lib
+mkdir -v Tracking/sri/lib
+mkdir -v Tracking/sri/lib
+mkdir -v Tracking/srism/lib
 
-source ~/.bashrc
-source ~/.bash_profile
-
-#Creating LIB directory
-mkdir Tracking/ati/lib
-mkdir Tracking/psi/lib
-mkdir Tracking/sri/lib
-mkdir Tracking/sri/lib
-mkdir Tracking/srism/lib
-
-cp restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/ati/lib/
-cp restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/psi/lib/
-cp restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/sri/lib/
-cp restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/srism/lib/
+cp -v restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/ati/lib/
+cp -v restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/psi/lib/
+cp -v restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/sri/lib/
+cp -v restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/srism/lib/
 
 if [ $? == 0 ]
-then
-	echo -e '\n\033[32m[+]\033[0mDirectories set..'
-
-if [ "$CLASSPATH" == "$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*" ]
 then
 	echo -e '\n\033[32m[+]\033[0mSiGploit is Ready for use..run SiGploit.py'
 	exit 0
 else
-	echo -e '\033[31m[-]\033[0mError Setting CLASSPATH..'
+	echo -e '\033[31m[-]\033[0mError Installing SiGploit..'
 	exit 1
 fi
+
 
 
