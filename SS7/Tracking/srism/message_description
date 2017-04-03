@@ -1,1 +1,12 @@
+The SendRoutingInfo For SM is the main message use before sending an SMS, as with calls , when terminating the SMS the sending SMSC must
+know the location of the subscriber, thus the message is sent to the home network HLR and the HLR will response with the below
+info:
+  - MSC/VLR GT
+  - IMSI
+  - IMEI
+  -CellID
+  ..much more
+Thus its criticaly important for operators to check the number of send SRISM messages to the number of actually MT_Forward_SM message
+that finishes the SMS sending sequence and submits the SMS data to the subscriber
 
+You only need the MSISDN to send a SRISM
