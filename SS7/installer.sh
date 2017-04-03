@@ -56,8 +56,21 @@ echo 'export CLASSPATH=$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/
 source ~/.bashrc
 source ~/.bash_profile
 
+#Creating LIB directory
+mkdir Tracking/ati/lib
+mkdir Tracking/psi/lib
+mkdir Tracking/sri/lib
+mkdir Tracking/sri/lib
+mkdir Tracking/srism/lib
 
+cp restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/ati/lib/
+cp restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/psi/lib/
+cp restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/sri/lib/
+cp restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/* Tracking/srism/lib/
 
+if [ $? == 0 ]
+then
+	echo -e '\n\033[32m[+]\033[0mDirectories set..'
 
 if [ "$CLASSPATH" == "$PWD/restcomm-jss7-7.2.1390/ss7/restcomm-ss7-service/lib/*" ]
 then
@@ -67,3 +80,5 @@ else
 	echo -e '\033[31m[-]\033[0mError Setting CLASSPATH..'
 	exit 1
 fi
+
+
