@@ -197,7 +197,7 @@ def mainMenu():
 	print "\033[33m[-][-]\033[0m\t\tCodedBy:\033[32mLoay AbdelRazek(@SigPloiter)\033[0m\t\t\033[33m[-][-]\033[0m\n"
 	print
 	print "0) SS7".rjust(9)
-	print "1) Documentaion".rjust(18)
+	print "1) Documentation".rjust(18)
 	print
 	print "or quit to exit SiGploit\n".rjust(28)
 	
