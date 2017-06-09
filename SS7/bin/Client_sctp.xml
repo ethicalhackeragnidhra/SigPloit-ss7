@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<connectdelay value="10000"/>
-<servers/>
-<associations>
-	<name value="clientAsscoiation"/>
-	<association name="clientAsscoiation" assoctype="CLIENT" hostAddress="192.168.56.101" hostPort="2905" peerAddress="192.168.56.102" peerPort="2906" ipChannelType="0" extraHostAddresseSize="0"/>
-</associations>
