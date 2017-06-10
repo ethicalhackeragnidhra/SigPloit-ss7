@@ -2,8 +2,3 @@ The requirements required before cloning SiGploit and installing it that you mus
 
 1) Python 2.7
 2) Java version 1.7 +
-3) sdk
-  curl -s "https://get.sdkman.io" | bash
-  After succussful installation of sdkman, download gradle
-  3.1) sdk install gradle 3.4.1
-       gradle -v (to verify gradle installation)
