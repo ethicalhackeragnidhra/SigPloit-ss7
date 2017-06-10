@@ -22,7 +22,8 @@ SiGploit is developed on several phases
   
   Phase 4: SIP
   ------------
-  This is phase will be concerned with SIP as the signaling protocol used in the access layer for voice over LTE(VoLTE) and IMS infrastructure
+  This is phase will be concerned with SIP as the signaling protocol used in the access layer for voice over LTE(VoLTE) and IMS infrastructure.
+  Also SIP will be used to encapsulate SS7 messages (ISUP) to be relayed over VoIP providers to SS7 networks taking advantage of SIP-T protocol, a protocol extension for SIP to provide intercompatability between VoIP and SS7 networks
   
   Phase 5: Reporting
   ------------------
