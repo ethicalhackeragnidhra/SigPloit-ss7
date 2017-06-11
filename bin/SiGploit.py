@@ -194,7 +194,7 @@ def mainMenu():
 	banner('SiGploit')
 	print "\033[33m[-][-]\033[0m\t\tSignaling Exploitation Framework\t\t\033[33m[-][-]\033[0m"
 	print "\033[33m[-][-]\033[0m\t\t\tVersion:\033[31mBETA 0.1\033[0m\t\t\t\033[33m[-][-]\033[0m"
-	print "\033[33m[-][-]\033[0m\t\tCodedBy:\033[32mLoay AbdelRazek(@SigPloiter)\033[0m\t\t\033[33m[-][-]\033[0m\n"
+	print "\033[33m[-][-]\033[0m\t\tCodedBy:\033[32mLoay AbdelRazek(@sigploit)\033[0m\t\t\033[33m[-][-]\033[0m\n"
 	print
 	print "0) SS7".rjust(8)
 	print "1) Documentation".rjust(18)
