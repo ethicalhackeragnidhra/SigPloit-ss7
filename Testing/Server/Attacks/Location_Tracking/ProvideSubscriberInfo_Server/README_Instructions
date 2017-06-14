@@ -1,0 +1,13 @@
+This code simulates the VLR that responsds to this SS7 message
+
+Hardcoded Values:
+=================
+Client PC: 1
+Peer PC: 2
+Client IP: 192.168.56.101
+Peer Port: 2906
+VLR GT: 201179008244
+
+Execution:
+========
+java -jar ProvideSubscriberInfo.jar
