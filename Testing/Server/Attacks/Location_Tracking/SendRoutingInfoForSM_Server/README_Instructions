@@ -1,0 +1,17 @@
+This simulates the HLR that is the node responding to the messages SRISM
+
+Hardcoded Values:
+=================
+Client PC: 1
+Peer PC: 2
+Client IP: 192.168.56.101
+Client Port: 2905
+Peer IP: 192.168.56.102
+Peer Port: 2906
+Target MSISDN: 201124683579
+Targer HLR (if you want to enter it): 201179008244
+
+
+Execution:
+========
+java -jar SendRoutingInfoForSM.jar
