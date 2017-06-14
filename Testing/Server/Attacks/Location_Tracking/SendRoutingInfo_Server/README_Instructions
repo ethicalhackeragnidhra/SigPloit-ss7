@@ -1,0 +1,15 @@
+This code simuilates the GMSC of the target network
+
+Hardcoded Values:
+=================
+Client PC: 1
+Client IP: 192.168.56.101
+Client port: 2905
+Peer PC: 2
+Peer IP: 192.168.56.102
+Peer port: 2906
+Target MSISDN: 201522222222
+
+Execution:
+==========
+java -r jar SendRoutingInfo.jar
