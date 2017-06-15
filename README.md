@@ -1,6 +1,6 @@
 # SiGploit
 SiGploit a signaling security testing framework dedicated to Telecom Security professionals and reasearchers to pentest and exploit vulnerabilites in the signaling protocols used in mobile operators regardless of the geneartion being in use.
-SiGploit aims to cover all used protocols used in the operator's interconnects SS7,GTP (3G), Diameter (4G) or even SIP for IMS and VoLTE infrastrucutres used in the access layer.
+SiGploit aims to cover all used protocols used in the operator's interconnects SS7,GTP (3G), Diameter (4G) or even SIP for IMS and VoLTE infrastrucutres used in the access layer and SS7 message encapuslation into SIP-T.
 Recommendations for each vulnerability will be provided to guide the tester and the operator the steps that should be done to enhance their security posture
 
 SiGploit is developed on several versions
