@@ -5,6 +5,8 @@ Recommendations for each vulnerability will be provided to guide the tester and 
 
 SiGploit is developed on several versions
 
+Note: In order to test SS7 attacks, you need to have an SS7 access or you can test in the virtual lab with the provided server sides of the attacks, the used values are provdided.
+
   Version 1: SS7
   -------------
   SiGploit will intially start with SS7 vulnerabilites providing the messages used to test the below attacking scenarios
