@@ -1,1 +1,21 @@
-test
+This code simulates the HLR in this case. In normal scenarios the communication occurs between the GGSN and HLR to retrieve the IP addresses
+of the current serving SGSN
+
+The hardocded Values to be used:
+=================================
+Client PC: 1
+Client IP: 192.168.56.101
+Client port: 2905
+Peer PC: 2
+Peer IP: 192.168.56.102
+Peer port: 2906
+Target IMSI :(a 15-16 digits number i.e 234333456789012)
+Target HLR: 441234567890
+GGSN GT : (a 12 digits number i.e 201059996612)
+
+
+
+Server Side Execution:
+======================
+java -jar SendRoutingInfoForGPRS.jar
+
