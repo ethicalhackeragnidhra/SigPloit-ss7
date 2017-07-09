@@ -268,7 +268,7 @@ def mainMenu():
 	banner('SiGploit')
 	print "\033[33m[-][-]\033[0m\t\tSignaling Exploitation Framework\t\033[33m [-][-]\033[0m"
 	print "\033[33m[-][-]\033[0m\t\t\tVersion:\033[31mBETA 0.2\033[0m\t\t\033[33m [-][-]\033[0m"
-	print "\033[33m[-][-]\033[0m\t\tCodedBy:\033[32mLoay AbdelRazek(@sigploit)\033[0m\t\033[33m [-][-]\033[0m\n"
+	print "\033[33m[-][-]\033[0m\t\tAuthor:\033[32mLoay AbdelRazek(@sigploit)\033[0m\t\033[33m [-][-]\033[0m\n"
 	print
 	print "   Module".rjust(10)+"\t\t\tDescription"
 	print "   --------                --------------------"
