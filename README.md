@@ -25,10 +25,20 @@ Note: In order to test SS7 attacks, you need to have an SS7 access or you can te
   Version 4: SIP
   ------------
   This is Version will be concerned with SIP as the signaling protocol used in the access layer for voice over LTE(VoLTE) and IMS infrastructure.
-  Also SIP will be used to encapsulate SS7 messages (ISUP) to be relayed over VoIP providers to SS7 networks taking advantage of SIP-T protocol, a protocol extension for SIP to provide intercompatability between VoIP and SS7 networks
+  Also, SIP will be used to encapsulate SS7 messages (ISUP) to be relayed over VoIP providers to SS7 networks taking advantage of SIP-T protocol, a protocol extension for SIP to provide intercompatability between VoIP and SS7 networks
   
   Version 5: Reporting
   ------------------
   This last Version will introduce the reporting feature. A comprehensive report with the tests done along with the recommendations provided for each vulnerability that has been exploited.
   
     BETA Version of SiGploit will have the Location Tracking attacks of the SS7 phase 1
+
+## Installation and requrements
+The requirements for this project are:
+
+    1) Python 2.7
+    2) Java version 1.7 +
+
+To run use
+
+    python bin/SiGploit.py
