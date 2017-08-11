@@ -20,4 +20,4 @@ SMS body: "Hello World!"
 
 Execution:
 ========
-java -jar ProvideSubscriberInfo.jar
+java -jar UpdateLocation.jar
