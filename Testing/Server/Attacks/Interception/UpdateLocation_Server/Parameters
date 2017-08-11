@@ -1,0 +1,23 @@
+This code aims to simulate a full man in the middle attack for SMS 
+This code simulates the HLR of target to receive the fake update location
+This code simulates an SMSC to deliever an SMS to the attacker
+This coode simulates the legtimite MSC of target prior to the fake update location to forward the intercepted SMS
+
+Hardcoded Values:
+=================
+Client PC: 1
+Peer PC: 2
+Client IP: 192.168.56.101
+Client POrt: 2905
+Peer IP: 192.168.56.102
+Peer Port: 2906
+Targer IMSI: 602027891234567
+IMSI MGT : 20107891234567
+Attacker GT: 96512345678
+Legitimiate/Current MSC of target (in case of forwarding back the sms): 201012344321
+
+SMS body: "Hello World!"
+
+Execution:
+========
+java -jar ProvideSubscriberInfo.jar
