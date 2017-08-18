@@ -5,7 +5,6 @@ import os
 import signal
 import time
 import tracking
-import fraud
 import interception
 
 
@@ -218,34 +217,6 @@ def Interception():
 		print '\n\033[31m[-]Error:\033[0m Please Enter a Valid Choice (0)'
 		time.sleep(1.5)
 		Interception()
-
-
-
-def Fraud():
-	os.system('clear')
-
-	print " \033[31mFraud\033[0m ".center(105,"#")
-	print " \033[34mSelect a Message from the below\033[0m ".center(105,"#")
-	print
-	print "   Message".rjust(10)+"\t\t\tCategory"
-	print "   --------                    --------"
-	print "0) InsertSubscriberData".rjust(26) +"\t CAT2"
-
-	print
-	print "or type back to go back to Attacks Menu".rjust(42)
-
-	choice = raw_input("\033[37m(\033[0m\033[2;31mFraud\033[0m\033[37m)>\033[0m ")
-
-	if choice == "0":
-		fraud.isd()
-	
-	elif choice == "back":
-		attacksMenu()	
-	else:
-		print '\n\033[31m[-]Error:\033[0m Please Enter a Valid Choice (0)'
-		time.sleep(1.5)
-		Fraud()
-
 
 
 
