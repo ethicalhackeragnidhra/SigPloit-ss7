@@ -1,0 +1,18 @@
+This code aims the HLR of the target. It will receive an MSISDN and respons back with its IMSI.
+This type of attack is the first step prior to fraud attacks, and the returned IMSI could be used in IMSI spoofing, 
+or any other attacks
+Hardcoded Values:
+=================
+Client PC: 1
+Peer PC: 2
+Client IP: 192.168.56.101
+Client POrt: 2905
+Peer IP: 192.168.56.102
+Peer Port: 2906
+Targer MSISDN: 201522222222
+Target HLR: 201500000000
+Your GT: [any of your choice]
+
+Execution:
+========
+java -jar SendIMSI.jar
