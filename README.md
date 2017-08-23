@@ -40,5 +40,5 @@ The requirements for this project are:
     2) Java version 1.7 +
 
 To run use
-
-    python bin/SiGploit.py
+    cd bin
+    python SiGploit.py
