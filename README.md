@@ -38,6 +38,7 @@ The requirements for this project are:
 
     1) Python 2.7
     2) Java version 1.7 +
+    3) Linux machine (Windows doesnt support SCTP)
 
 To run use
     cd bin
