@@ -1,0 +1,20 @@
+This code simulates the MSC which is responsible to switch/deliever the traffic to the specificed user. With this simulation 
+you will make sure that your spoofed sms is readable in the correct format you need and its working. Below are few hardcoded parameters 
+that are used in this simulation
+
+
+Hardcoded Values:
+=================
+Client PC: 1
+Peer PC: 2
+Client IP: 192.168.56.101
+Client Port: 2905
+Peer IP: 192.168.56.102
+Peer Port: 2906
+Target MSC: 201512345678
+
+(other values are of your choice)
+
+Execution:
+========
+java -jar MTForwardSMSResp.jar
