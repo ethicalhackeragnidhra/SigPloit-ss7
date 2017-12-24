@@ -356,7 +356,6 @@ def mainMenu():
 		time.sleep(1)
 		sys.exit(0)
 	else:
-		print '\n\033[31m[-]Error:\033[0m Please Enter a Valid Choice (0 - 3)'
 		time.sleep(2)
 		mainMenu()
 
