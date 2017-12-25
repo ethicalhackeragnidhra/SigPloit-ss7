@@ -36,7 +36,7 @@ def simsi():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31m[-]SendIMSI Failed to Launch, Error: " + e.message
+		print "\033[31m[-]SendIMSI Failed to Launch, Error:\033[0m " + str(e)
 		time.sleep(2)
 		SiGploit.attacksMenu()
 
@@ -65,7 +65,7 @@ def mtsms():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31m[-]MTForwardSMS Failed to Launch, Error: " + e.message
+		print "\033[31m[-]MTForwardSMS Failed to Launch, Error:\033[0m " + str(e)
 		time.sleep(2)
 		SiGploit.attacksMenu()
 	
