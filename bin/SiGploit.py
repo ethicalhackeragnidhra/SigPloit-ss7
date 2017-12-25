@@ -276,41 +276,6 @@ def attacksMenu():
 		attacksMenu()
 
 
-
-
-def mode():
-	
-	def simulation():
-		print "\n\033[34m[*]\033[0mPlease run the corresposnding server side under the \033[33m'Testing/Server/Attacks/{attack_type}'\033[0m directory on another machine"
-		print "\033[33m[*]Usage:\033[0m java -jar <message_name.jar>"
-		time.sleep(4)
-		attacksMenu()
-
-	def live():
-		lv = raw_input('\nDo you have an SS7 network access? (y/n): ')
-		if lv =='y' or lv == 'yes':
-			print "\n\033[34m[*]\033[0mHappy SigPloitting"
-			time.sleep(1.5)
-			attacksMenu()
-		elif lv =='n' or lv == 'no':
-			simulation()
-
-	print "\033[34mSelect a Mode from the below\033[0m ".center(105,"#")
-	print
-	print "0) Simulation mode".rjust(19)
-	print "1) Live mode".rjust(13)
-	print
-
-	mode = raw_input("\033[34mmode\033[0m\033[37m>\033[0m ")
-	
-	if mode == "0":
-		simulation()
-		
-	elif mode == "1":
-		live()
-		
-
-
 def mainMenu():
 	os.system('clear')
 	banner('SiGploit')
@@ -334,7 +299,7 @@ def mainMenu():
 	
 	if choice == "0":
 		os.system('clear')
-		mode()
+		attacksMenu()
 		
 	if choice == "1":
 		print "\n\033[34m[*]\033[0mDiameter will be updated in version 2 release.."
