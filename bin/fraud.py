@@ -37,6 +37,7 @@ def simsi():
 	
 	except CalledProcessError as e:
 		print "\033[31mSendIMSI Failed to Launch, Error: " + e.message
+		time.sleep(2)
 
 
 def mtsms():
@@ -64,4 +65,5 @@ def mtsms():
 	
 	except CalledProcessError as e:
 		print "\033[31mMTForwardSMS Failed to Launch, Error: " + e.message
+		time.sleep(2)
 	
