@@ -38,6 +38,7 @@ def ul():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31mUpdateLocation Failed to Launch, Error: " + e.message
+		print "\033[31m[-]UpdateLocation Failed to Launch, Error: " + e.message
 		time.sleep(2)
+		SiGploit.attacksMenu()
 	
