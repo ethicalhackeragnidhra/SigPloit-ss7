@@ -40,7 +40,9 @@ def sri():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31mSendRoutingInfo Failed to Launch, Error: " + e.message
+		print "\033[31m[-]SendRoutingInfo Failed to Launch, Error: " + e.message
+		time.sleep(2)
+		SiGploit.attacksMenu()
 	
 
 def psi():
@@ -67,7 +69,9 @@ def psi():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31m"+jar_file+" Failed to Launch, Error: " + e.message
+		print "\033[31m[-]ProvideSubscriberInfo Failed to Launch, Error: " + e.message
+		time.sleep(2)
+		SiGploit.attacksMenu()
 
 def srism():
 	jar_file = 'SendRoutingInfoForSM.jar'
@@ -92,7 +96,9 @@ def srism():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31m"+jar_file+" Failed to Launch, Error: " + e.message
+		print "\033[31m[-]SendRoutingInfoForSM Failed to Launch, Error: " + e.message
+		time.sleep(2)
+		SiGploit.attacksMenu()
 
 def ati():
 	jar_file = 'AnyTimeInterrogation.jar'
@@ -117,7 +123,9 @@ def ati():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31m"+jar_file+" Failed to Launch, Error: " + e.message
+		print "\033[31m[-]AnyTimeInterrogation Failed to Launch, Error: " + e.message
+		time.sleep(2)
+		SiGploit.attacksMenu()
 
 def srigprs():
 	jar_file = 'SendRoutingInfoForGPRS.jar'
@@ -142,4 +150,6 @@ def srigprs():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31m"+jar_file+" Failed to Launch, Error: " + e.message
+		print "\033[31m[-]SendRoutingInfoForGPRS Failed to Launch, Error: " + e.message
+		time.sleep(2)
+		SiGploit.attacksMenu()
