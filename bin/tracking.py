@@ -40,7 +40,7 @@ def sri():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31m[-]SendRoutingInfo Failed to Launch, Error: " + e.message
+		print "\033[31m[-]SendRoutingInfo Failed to Launch, Error:\033[0m " + str(e)
 		time.sleep(2)
 		SiGploit.attacksMenu()
 	
@@ -69,7 +69,7 @@ def psi():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31m[-]ProvideSubscriberInfo Failed to Launch, Error: " + e.message
+		print "\033[31m[-]ProvideSubscriberInfo Failed to Launch, Error:\033[0m " + str(e)
 		time.sleep(2)
 		SiGploit.attacksMenu()
 
@@ -96,7 +96,7 @@ def srism():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31m[-]SendRoutingInfoForSM Failed to Launch, Error: " + e.message
+		print "\033[31m[-]SendRoutingInfoForSM Failed to Launch, Error:\033[0m " + str(e)
 		time.sleep(2)
 		SiGploit.attacksMenu()
 
@@ -123,7 +123,7 @@ def ati():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31m[-]AnyTimeInterrogation Failed to Launch, Error: " + e.message
+		print "\033[31m[-]AnyTimeInterrogation Failed to Launch, Error:\033[0m " + str(e)
 		time.sleep(2)
 		SiGploit.attacksMenu()
 
@@ -150,6 +150,6 @@ def srigprs():
 			
 	
 	except CalledProcessError as e:
-		print "\033[31m[-]SendRoutingInfoForGPRS Failed to Launch, Error: " + e.message
+		print "\033[31m[-]SendRoutingInfoForGPRS Failed to Launch, Error:\033[0m " + str(e)
 		time.sleep(2)
 		SiGploit.attacksMenu()
