@@ -224,7 +224,7 @@ def Fraud():
 	print
 	print "   Message".rjust(10)+"\t\t\t\tCategory"
 	print "   --------                            --------"
-	print "0) SendIMSI".rjust(14) +"\t\t\t\t CAT3"
+	print "0) SendIMSI".rjust(14) +"\t\t\t\t CAT1"
 	print "1) MTForwardSMS SMS Spoofing".rjust(31) +"\t\t CAT3"
 
 	print
