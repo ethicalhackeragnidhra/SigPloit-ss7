@@ -283,6 +283,13 @@ def mainMenu():
 	print "\033[33m[-][-]\033[0m\t\t\tVersion:\033[31mBETA 0.3\033[0m\t\t\033[33m [-][-]\033[0m"
 	print "\033[33m[-][-]\033[0m\t\tAuthor:\033[32mLoay AbdelRazek(@sigploit)\033[0m\t\033[33m [-][-]\033[0m\n"
 	print
+	print "Contributors:"
+	print "\t\033[31mRosalia D'Alessandro - TelecomItalia\033[0m"
+	print
+	print
+	print
+	print
+	print
 	print "   Module".rjust(10)+"\t\t\tDescription"
 	print "   --------                --------------------"
 	print "0) SS7".rjust(8)+"\t\t2G/3G Voice and SMS attacks"
