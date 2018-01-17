@@ -10,6 +10,7 @@ cwd = os.path.dirname(os.getcwd())
 
 simsi_path = os.path.join(cwd,'SS7/Fraud/SIMSI')
 mtsms_path = os.path.join(cwd,'SS7/Fraud/MTSMS')
+cl_path = os.path.join(cwd,'SS7/Fraud/CL')
 
 
 def simsi():
@@ -66,6 +67,34 @@ def mtsms():
 	
 	except CalledProcessError as e:
 		print "\033[31m[-]MTForwardSMS Failed to Launch, Error:\033[0m " + str(e)
+		time.sleep(2)
+		SiGploit.attacksMenu()
+
+def cl():
+	
+	jar_file = 'CancelLocation.jar'
+
+	try:
+		cancelLocation = check_call(['java','-jar', os.path.join(cl_path,jar_file)])
+		if cancelLocation == 0:
+			fr = raw_input('\nWould you like to go back to Fraud Menu? (y/n): ')
+			if fr == 'y' or fr == 'yes':
+				SiGploit.Fraud()
+			elif fr == 'n' or fr == 'no':
+				attack_menu = raw_input('Would you like to choose another attacks category? (y/n): ')
+				if attack_menu == 'y'or attack_menu =='yes':
+					SiGploit.attacksMenu()
+				elif attack_menu == 'n' or attack_menu =='no':
+					main_menu = raw_input('Would you like to go back to the main menu? (y/exit): ')
+					if main_menu == 'y' or main_menu =='yes':
+						SiGploit.mainMenu()
+					elif main_menu =='exit':
+						print 'TCAP End...'
+						sys.exit(0)
+			
+	
+	except CalledProcessError as e:
+		print "\033[31m[-]CancelLocation Failed to Launch, Error:\033[0m " + str(e)
 		time.sleep(2)
 		SiGploit.attacksMenu()
 	
