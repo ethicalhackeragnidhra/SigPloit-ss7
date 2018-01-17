@@ -226,6 +226,7 @@ def Fraud():
 	print "   --------                            --------"
 	print "0) SendIMSI".rjust(14) +"\t\t\t\t CAT1"
 	print "1) MTForwardSMS SMS Spoofing".rjust(31) +"\t\t CAT3"
+	print "2) CancelLocation".rjust(20) + "\t\t\t CAT2"
 
 	print
 	print "or type back to go back to Attacks Menu".rjust(42)
@@ -236,10 +237,12 @@ def Fraud():
 		fraud.simsi()
 	elif choice == "1":
 		fraud.mtsms()
+	elif choice == "2":
+		fraud.cl()
 	elif choice == "back":
 		attacksMenu()	
 	else:
-		print '\n\033[31m[-]Error:\033[0m Please Enter a Valid Choice (0-1)'
+		print '\n\033[31m[-]Error:\033[0m Please Enter a Valid Choice (0-2)'
 		time.sleep(1.5)
 		Fraud()
 
