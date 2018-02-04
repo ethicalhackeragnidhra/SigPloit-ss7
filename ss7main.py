@@ -13,8 +13,8 @@ SS7 main
 import os
 import time
 import ss7.tracking
-#from ss7.interception import *
-#from ss7.fraud import *
+import ss7.fraud
+import ss7.interception
 from sigploit import *
 
 
