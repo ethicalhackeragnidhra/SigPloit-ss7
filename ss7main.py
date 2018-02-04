@@ -15,7 +15,7 @@ import time
 import ss7.tracking
 import ss7.fraud
 import ss7.interception
-from sigploit import *
+import sigploit
 
 
 def LocationTracking():
@@ -167,7 +167,7 @@ def attacksMenu():
         DoS()
 
     elif choice == "back":
-        mainMenu()
+        sigploit.mainMenu()
     else:
         print '\n\033[31m[-]Error:\033[0m Please Enter a Valid Choice (0 - 2)'
         time.sleep(1.5)
