@@ -175,7 +175,7 @@ def mainMenu():
         print "\033[34m[*]\033[0mGoing back to Main Menu"
         time.sleep(2)
         mainMenu()
-    elif choice == "quit":
+    elif choice == "quit" or choice == "exit":
         print '\nYou are now exiting SiGploit...'
         time.sleep(1)
         sys.exit(0)
