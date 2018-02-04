@@ -19,7 +19,7 @@ sri_path = os.path.join(os.getcwd(),'ss7/attacks/tracking/sri')
 srism_path = os.path.join(os.getcwd(),'ss7/attacks/tracking/srism')
 psi_path = os.path.join(os.getcwd(),'ss7/attacks/tracking/psi')
 ati_path = os.path.join(os.getcwd(),'ss7/attacks/tracking/ati')
-#srigprs_path = os.path.join(os.getcwd(),'ss7/attacks/tracking/srigprs')
+srigprs_path = os.path.join(os.getcwd(),'ss7/attacks/tracking/srigprs')
 
 
 
