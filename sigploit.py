@@ -124,7 +124,7 @@ X      | X     |  X    |   X   |    X  |     X |      X|\|
 
     for row in range(ROWS):
         for c in word:
-            print table[c][row],
+            print "table[c][row]"
         print
     print
 
